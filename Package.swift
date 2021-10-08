@@ -19,7 +19,7 @@ targetDeps += ["Starscream"]
 dependencies += [
   .package(
     url: "https://github.com/vapor/engine.git",
-    .upToNextMajor(from: "2.0.0")
+    from: "3.4.0")
   )
 ]
   
